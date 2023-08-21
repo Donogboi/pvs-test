@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Untermenü mit CSS</title>
+  <style>
+    /* CSS-Styling für das Untermenü und die gesamte Seite */
+
+    /* Hintergrundfarbe der Seite */
+    body {
+      background-color: rgb(0, 98, 128);
+      color: rgb(255, 255, 255);
+      font-family: Arial, sans-serif;
+    }
+
+    /* Hauptüberschrift */
+    h1 {
+      color: #ffcc00;
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    /* Liste und Untermenü */
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    ul li {
+      position: relative;
+      padding: 10px;
+      background-color: #ffcc00;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+
+    ul li:hover {
+      background-color: #ff9900;
+    }
+
+    ul ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #ff9900;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    ul li:hover > ul {
+      display: block;
+    }
+
+    ul a {
+      color: white;
+      text-decoration: none;
+    }
+
+    ul a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Untermenü mit CSS</h1>
+  
+  <ul>
+    <li><a href="#">Menüpunkt 1</a>
+      <ul>
+        <li><a href="#">Don 1</a></li>
+        <li><a href="#">Jayden 2</a></li>
+        <li><a href="#">Cataleya 3</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Menüpunkt 2</a>
+      <ul>
+        <li><a href="#">Teko 1</a></li>
+        <li><a href="#">Olter 2</a></li>
+        <li><a href="#">Teko zh 3</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Menüpunkt 3</a>
+      <ul>
+        <li><a href="#">Leya 1</a></li>
+        <li><a href="#">FCZ 2</a></li>
+        <li><a href="#">Mr Don 3</a></li>
+      </ul>
+    </li>
+  </ul>
+</body>
+</html>
+
+

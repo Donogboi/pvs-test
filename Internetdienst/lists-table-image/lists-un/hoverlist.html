@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Untermenü mit CSS</title>
+  <style>
+    /* CSS-Styling für das Untermenü */
+
+    /* Ausblenden des Untermenüs */
+    ul ul {
+      display: none;
+    }
+
+    /* Anzeigen des Untermenüs beim Hover-Ereignis */
+    ul li:hover > ul {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h1>Untermenü mit CSS</h1>
+  
+  <ul>
+    <li>Menüpunkt 1
+      <ul>
+        <li>Don 1</li>
+        <li>Jayden 2</li>
+        <li>Cataleya 3</li>
+      </ul>
+    </li>
+    <li>Menüpunkt 2
+      <ul>
+        <li>Teko 1</li>
+        <li>Olter 2</li>
+        <li>Teko zh 3</li>
+      </ul>
+    </li>
+    <li>Menüpunkt 3
+      <ul>
+        <li>Leya 1</li>
+        <li>FCZ 2</li>
+        <li>Mr Don 3</li>
+      </ul>
+    </li>
+  </ul>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Untermenü mit CSS</title>
+  <style>
+    /* CSS-Styling für das Untermenü */
+
+    /* Ausblenden des Untermenüs */
+    ul ul {
+      display: none;
+    }
+
+    /* Anzeigen des Untermenüs beim Hover-Ereignis */
+    ul li:hover > ul {
+      display: block;
+    }
+
+    /* Ändern der Textfarbe beim Hover-Ereignis */
+    ul li:hover > a {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <h1>Untermenü mit CSS</h1>
+  
+  <ul>
+    <li>Menüpunkt 1</a>
+      <ul>
+        <li><a href="#">Don 1</a></li>
+        <li><a href="#">Jayden 2</a></li>
+        <li><a href="#">Cataleya 3</a></li>
+      </ul>
+    </li>
+    <li>Menüpunkt 2</a>
+      <ul>
+        <li><a href="#">Teko 1</a></li>
+        <li><a href="#">Olter 2</a></li>
+        <li><a href="#">Teko zh 3</a></li>
+      </ul>
+    </li>
+    <li>Menüpunkt 3</a>
+      <ul>
+        <li><a href="#">Leya 1</a></li>
+        <li><a href="#">FCZ 2</a></li>
+        <li><a href="#">Mr Don 3</a></li>
+      </ul>
+    </li>
+  </ul>
+</body>
+</html>

@@ -1,86 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Startup</title>
-  <!-- Link to external CSS file -->
-  <link rel="stylesheet" href="C:/Users/Backup/Documents/PlatformIO/Projects/My%20folder/Internetdienst/Empyrean_Ascension/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Add your styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #1172B8;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #CBB26A;
+            padding: 15px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #158fe7;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .container h2 {
+            color: #1172B8;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #158fe7;
+            color: #fff;
+        }
+        /* Additional styles for team section */
+        #team {
+            background-color: #f8f8f8;
+            padding: 50px 0;
+            text-align: center;
+        }
+        #team h2 {
+            color: #1172B8;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        #team p {
+            color: #666;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        #team ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        #team ul li {
+            flex-basis: calc(33.33% - 20px);
+            text-align: center;
+        }
+        #team ul li img {
+            max-width: 150px;
+            height: auto;
+            border-radius: 50%;
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 10px;
+        }
+    </style>
+    <title>Team - Empyrean Ascension</title>
 </head>
 <body>
-  <!-- Header with navigation menu -->
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
- 
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <!-- About section -->
-  <section id="about">
-    <div class="container">
-      <h2>Empyrean Ascension</h2>
-      <h2>Overview:</h2>
-      <p>Empyrean Ascension is a dynamic and multifaceted company that operates across various industries, including Oil and Gas, Hospitality, Retail, 
-        and Food Services. Established in May 2023 by visionary entrepreneur Mr. Don Ogboi, the company has rapidly carved a niche for itself in diverse sectors, offering exceptional products and services to its clientele.
-        <!-- ... Your About Us content ... -->
-      </p>
-    </div>
-  </section>
+    <!-- Team section -->
+    <section id="team">
+        <div class="container">
+            <h2>Meet Our Team</h2>
+            <p>We are a dedicated and diverse team of professionals who are passionate about innovation, excellence, and making a positive impact on the world. With a blend of expertise across various fields, we work together to drive Empyrean Ascension forward and shape its success.</p>
+        </div>
+        <ul>
+            <li>
+                <img src="images/Don_Ogboi.png" alt="Dr. Don Ogboi">
+                <h3>Don Ogboi</h3>
+                <p>CEO</p>
+            </li>
+            <li>
+                <img src="images/Corina_braendle.png" alt="Dr. Corina Braendle">
+                <h3>Dr. Corina Braendle</h3>
+                <p>Lead Scientist</p>
+            </li>
+            <li>
+                <img src="images/jayden.jpg" alt="Mister Jayden">
+                <h3>Mister Jayden</h3>
+                <p>Operations Manager</p>
+            </li>
+        </ul>
+    </section>
 
-  <section id="about">
-    <div class="container">
-      <h2>Founder:</h2>
-      <p>At the helm of Empyrean Ascension is Mr. Don Ogboi, a forward-thinking business leader with a passion for innovation and growth. 
-        With a keen understanding of market trends and an unwavering commitment to excellence, 
-        Mr. Ogboi has steered the company toward success since its inception.
-        <!-- ... Your About Us content ... -->
-      </p>
-    </div>
-  </section>
-
-  <section id="about">
-    <div class="container">
-      <h2>Business Ventures:</h2>
-      <p>Oil and Gas: Empyrean Ascension's presence in the Oil and Gas industry underscores its commitment to energy solutions. Leveraging cutting-edge technologies and sustainable practices, the company contributes to the energy landscape while maintaining a focus on environmental responsibility. 
-        Hospitality: The company's hospitality sector sets new standards in guest experiences. Empyrean Ascension's hotels offer a blend of luxury and comfort, providing travelers and guests with impeccable service, state-of-the-art amenities, and unforgettable stays. 
-        Retail: Empyrean Ascension has ventured into the retail sector, enhancing convenience for consumers with its supermarket chains. Offering a diverse range of products and essentials, the company aims to simplify shopping experiences while upholding quality and value. 
-        Food Services: With a dedication to culinary excellence, Empyrean Ascension has established fast-food outlets that cater to the demands of busy lifestyles. These eateries provide delectable meals swiftly, ensuring that customers savor flavorsome dishes without compromising on taste or time. 
-        Landing Preparty: Empyrean Ascension's innovative "Landing Preparty" concept offers a unique blend of entertainment and relaxation, creating a perfect prelude to travel. This service offers a memorable experience for individuals and groups departing on flights, making their journeys truly special.
-        <!-- ... Your About Us content ... -->
-      </p>
-    </div>
-  </section>
-
-
-  <section id="about">
-    <div class="container">
-      <h2>Team:</h2>
-      <p>Empyrean Ascension boasts a talented team of 30 dedicated professionals who contribute their expertise and passion to drive the company's success across its diverse ventures. 
-        The team's collective efforts ensure that the company's commitment to quality, innovation, and customer satisfaction remains unwavering.
-      </p>
-    </div>
-  </section>
-
-
-  <section id="about">
-    <div class="container">
-      <h2>Vision:</h2>
-      <p>Empyrean Ascension's vision is to be a pioneering force in each industry it touches. 
-        By continuously innovating and adapting to evolving market needs, the company aims to create lasting value for its stakeholders while positively impacting the communities it serves.
-      </p>
-    </div>
-  </section>
-
-
-  <!-- Footer section -->
-  <footer>
-    <p>&copy; 2023 Your Startup. All rights reserved.</p>
-  </footer>
-
-  <!-- Link to external JavaScript file -->
-  <script src="C:/Users/Backup/Documents/PlatformIO/Projects/My%20folder/Internetdienst/Empyrean_Ascension/js/script.js"></script>
+    <footer>
+        <p>&copy; 2023 Your Startup. All rights reserved.</p>
+    </footer>
 </body>
 </html>

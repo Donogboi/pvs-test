@@ -1,0 +1,130 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define styles for the container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+/* Define styles for the desktop and mobile views */
+.desktop-view,
+.mobile-view {
+    width: 100%;
+}
+
+/* Style the mobile view to make it slimmer */
+.mobile-view {
+    max-width: 300px;
+}
+
+/* Reduce space between desktop and mobile views */
+.mobile-view {
+    margin-top: 2px; /* Adjust the margin as needed */
+}
+
+/* Add your existing styles below */
+/* ... (your existing styles here) ... */
+
+/* Define styles for the card container */
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+/* Define styles for the image container */
+.image {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Define styles for the image */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Define styles for the details container */
+.details {
+    flex: 2;
+    padding: 10px;
+}
+
+/* Style the heading and description */
+h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Style the price tags */
+.prices {
+    margin-bottom: 10px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 10px;
+}
+
+.new-price {
+    font-weight: bold;
+    color: #308058; /* Green color for the new price */
+    margin-right: 10px;
+}
+
+/* Style the "Add to Cart" button */
+.add-to-cart {
+    background-color: #088151; /* Blue color for the button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #2980b9; 
+}
+
+
+.detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align details to the left */
+    margin-top: 20px; /* Add margin for separation */
+}
+
+
+@media screen and (max-width: 600px) {
+   
+    .mobile-view .image {
+        order: -1; 
+        margin-bottom: 
+    }
+}

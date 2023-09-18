@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Add your styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #1172B8;
+        }
+        header {
+            background-color: #CBB26A;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #158fe7;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .container h2 {
+            color: #1172B8;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #158fe7;
+            color: #fff;
+        }
+    </style>
+    <title>About - Empyrean Ascension</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="team.html">Team</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <h2>About Empyrean Ascension LTD</h2>
+        <p>
+            Empyrean Ascension LTD is a prominent holding company engaged in various sectors including Oil and Gas, Lands and Properties, Supermarkets, Pharmacies, and Hospitality services like hotels. Led by visionary CEO Don Ogboi, the company has established a strong presence in these industries with a commitment to excellence, innovation, and sustainable growth.
+        </p>
+        <p>
+            At Empyrean Ascension, we believe in fostering a culture of innovation and continuous improvement. Our diverse portfolio of businesses allows us to make a positive impact on various aspects of the economy and the community. We take pride in our dedication to delivering exceptional quality, impeccable service, and unmatched value to our clients and partners.
+        </p>
+        <p>
+            As a forward-thinking company, we are passionate about embracing emerging technologies and trends that drive positive change in our industries. We're not just a company; we're a team of driven individuals who are on a collective journey to elevate standards and make a lasting mark on the world.
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Startup. All rights reserved.</p>
+    </footer>
+</body>
+</html>

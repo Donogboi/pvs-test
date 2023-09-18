@@ -1,103 +1,112 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <style>
-        /* Reset some default styles */
-        body, h1, h2, p, ul {
-            margin: 0;
-            padding: 0;
-        }
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
 
-        body {
-            font-family: Arial, sans-serif;
-        }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #1172B8;
+}
 
-        /* Header styles */
-        header {
-            background-color: #1172B8;
-            color: #fff;
-            padding: 20px;
-        }
+/* Header styles */
+header {
+    background-color: #CBB26A;
+    padding: 10px;
+}
 
-        nav ul {
-            list-style-type: none;
-        }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
 
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-            font-weight: bold;
-        }
+nav ul li a {
+    color: #158fe7;
+    text-decoration: none;
+}
 
-        /* Hero section styles */
-        #hero {
-            background-image: url('images/EMPYREAN ASCENSION.png');
-            background-size: cover;
-            background-position: center;
-            color: #fff;
-            padding: 150px 0;
-            text-align: center;
-        }
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
-        #hero h1 {
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
+.container h2 {
+    color: #1172B8;
+}
 
-        #hero p {
-            font-size: 20px;
-            margin-bottom: 40px;
-        }
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #158fe7;
+    color: #fff;
+}
 
-        /* General container styles */
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
+/* Flexbox for navigation menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
 
-        /* Footer styles */
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="team.html">Team</a></li>
-            </ul>
-        </nav>
-    </header>
+nav ul li {
+    margin-right: 10px;
+}
 
-    <!-- Hero section -->
-    <section id="hero">
-        <h1>Welcome to Empyrean Ascension</h1>
-        <p>Your path to success and innovation starts here.</p>
-    </section>
+/* Center the navigation items horizontally */
+nav ul li:last-child {
+    margin-right: 0;
+    margin-left: auto;
+}
 
-    <section class="container">
-        <!-- Rest of your content goes here -->
-    </section>
+/* Additional styles for specific sections can be added here */
 
-    <footer>
-        <p>&copy; 2023 Your Startup. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+/* Styles for the contact form */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #158fe7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1172B8;
+}
+
+/* Add this to your CSS file */
+.logo {
+    max-width: 100%; /* Adjust the value as needed */
+    height: auto;
+}

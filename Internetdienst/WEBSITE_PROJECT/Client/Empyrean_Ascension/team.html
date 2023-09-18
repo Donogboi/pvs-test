@@ -4,78 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <style>
-        /* Add your styles here */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            color: #1172B8;
-        }
-        header {
-            background-color: #CBB26A;
-            padding: 10px;
-        }
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-        nav ul li {
-            display: inline;
-            margin-right: 10px;
-        }
-        nav ul li a {
-            color: #158fe7;
-            text-decoration: none;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .container h2 {
-            color: #1172B8;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #158fe7;
-            color: #fff;
-        }
-        /* Additional styles for team section */
-        #team {
-            background-color: #f8f8f8;
-            padding: 50px 0;
-            text-align: center;
-        }
-        #team h2 {
-            color: #1172B8;
-        }
-        #team p {
-            color: #666;
-            margin-bottom: 30px;
-        }
-        #team ul {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-        #team ul li {
-            flex-basis: calc(33.33% - 20px);
-            text-align: center;
-        }
-        #team ul li img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 50%;
-            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
-            margin-bottom: 10px;
-        }
-    </style>
     <title>Team - Empyrean Ascension</title>
 </head>
 <body>
@@ -91,35 +19,29 @@
         </nav>
     </header>
 
-    <!-- Team section -->
-    <section id="team">
-        <div class="container">
-            <h2>Meet Our Team</h2>
-            <p>We are a dedicated and diverse team of professionals who are passionate about innovation, excellence, and making a positive impact on the world. With a blend of expertise across various fields, we work together to drive Empyrean Ascension forward and shape its success.</p>
-        </div>
-        <ul>
-            <li>
-                <img src="images/Don_Ogboi.png" alt="Dr. Don Ogboi">
-                <h3>Don Ogboi</h3>
-                <p>CEO</p>
-                <p class="intro">With a visionary mindset and a drive for success, Don Ogboi leads Empyrean Ascension towards new horizons. His strategic thinking and passion for innovation inspire our team to excel.</p>
+    <main>
+        <!-- Team section -->
+        <section id="team" class="container">
+            <div class="container">
+                <h2>Meet Our Team</h2>
+                <p>We are a dedicated and diverse team of professionals who are passionate about innovation, excellence, and making a positive impact on the world. With a blend of expertise across various fields, we work together to drive Empyrean Ascension forward and shape its success.</p>
+            </div>
+            <ul>
+                <li>
+                    <img src="images/Don_Ogboi.png" alt="Dr. Don Ogboi">
+                    <h3>Don Ogboi</h3>
+                    <p>CEO</p>
+                    <p class="intro">With a visionary mindset and a drive for success, Don Ogboi leads Empyrean Ascension towards new horizons. His strategic thinking and passion for innovation inspire our team to excel.</p>
+                </li>
+                <!-- Add more team members here -->
+            </ul>
 
-            </li>
-            <li>
-                <img src="images/Corina_braendle.png" alt="Dr. Corina Braendle">
-                <h3>Dr. Corina Braendle</h3>
-                <p>COO</p>
-                <p class="intro">Dr. Corina Braendle's expertise in operations management ensures that Empyrean Ascension runs smoothly. Her dedication to efficiency and excellence is the backbone of our success.</p>
-          
-            </li>
-            <li>
-                <img src="images/Jayden.png" alt="Mister Jayden">
-                <h3>Mister Jayden</h3>
-                <p>Operations Manager</p>
-                <p class="intro">Mister Jayden's meticulous attention to detail and problem-solving skills make him a key player in our operations. His commitment to delivering excellence drives us forward.</p>
-              </li>
-        </ul>
-    </section>
+            <!-- Link to go back to the home page -->
+            <div id="back-link">
+                <a href="home.html">Back to Home</a>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <p>&copy; 2023 Your Startup. All rights reserved.</p>

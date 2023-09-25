@@ -1,8 +1,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: chat-deployment
-  namespace: don-teko3-kubernetes # Replace with your namespace
+  name: don.teko.hackerman.ch
+  namespace: teko3 
 spec:
   replicas: 1
   selector:
@@ -15,13 +15,13 @@ spec:
     spec:
       containers:
         - name: chat
-          image: switzerchees/pvs-chat:latest
+          image: switzerchees/internetdienste-website:latest
           resources:
             limits:
               cpu: "0.5"
               memory: "500Mi"
           env:
-            - name: REDIS_HOST
-              value: redis-service
+            - name: Mongodb_connection
+              value: mongodb://root:example@localhost:27017/?authMechanism=DEFAULT
           ports:
             - containerPort: 3000

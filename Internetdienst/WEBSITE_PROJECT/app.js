@@ -9,3 +9,8 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Server is listening at http://localhost:${port}`);
 });
+
+const cors = require('cors');
+
+// Enable CORS for all routes (adjust options as needed)
+app.use(cors());

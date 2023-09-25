@@ -4,10 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* CSS for image size and layout */
+        .service {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .service img {
+            max-width: 100%;
+            height: auto;
+            width: 300px; /* Adjust the width as needed */
+        }
+
+        .service-description {
+            flex: 1;
+            margin-left: 20px;
+        }
+    </style>
     <title>Services - Empyrean Ascension</title>
 </head>
 <body>
     <header>
+        <!-- Navigation Menu -->
         <nav>
             <ul>
                 <li><a href="home.html">Home</a></li>
@@ -22,17 +42,59 @@
     <main>
         <!-- Services section -->
         <section id="services" class="container">
-            <img src="images/EMPYREAN ASCENSION3.jpg" alt="Empyrean Ascension Logo" class="logo">
-            <h2>Our Services</h2>
-            <p>We provide a range of high-quality services to meet your needs:</p>
-            
-            <ul>
-                <li><strong>Energy Solutions:</strong> Sustainable and reliable energy sources.</li>
-                <li><strong>Luxury Hospitality:</strong> Exceptional stays and experiences.</li>
-                <li><strong>Convenient Retail:</strong> Diverse range of quality products.</li>
-                <li><strong>Quick Food Services:</strong> Delectable meals delivered swiftly.</li>
-                <li><strong>Unique Travel Experience:</strong> Special "Landing Preparty" moments.</li>
-            </ul>
+            <h1>Our Services</h1>
+
+            <section class="container">
+                <p>
+                    <p>We provide a range of high-quality services to meet your needs:</p>
+     
+            </section>
+           
+
+            <!-- Energy Solutions -->
+            <div class="service">
+                <img src="images/mainpics2.jpg" alt="Empyrean Ascension Energy Solutions">
+                <div class="service-description">
+                    <h3>Energy Solutions</h3>
+                    <p>Sustainable and reliable energy sources. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec odio nec justo rhoncus laoreet.</p>
+                </div>
+            </div>
+
+            <!-- Luxury Hospitality -->
+            <div class="service">
+                <img src="images/9-Corinthia-Hotel-London.jpg" alt="Empyrean Ascension Luxury Hospitality">
+                <div class="service-description">
+                    <h3>Luxury Hospitality</h3>
+                    <p>Exceptional stays and experiences. Integer auctor odio at justo facilisis, sit amet vehicula nisl dapibus. Aliquam id odio quis dolor vehicula sodales.</p>
+                </div>
+            </div>
+
+            <!-- Convenient Retail -->
+            <div class="service">
+                <img src="images/Convenient Retail.jpg" alt="Empyrean Ascension Convenient Retail">
+                <div class="service-description">
+                    <h3>Convenient Retail</h3>
+                    <p>Diverse range of quality products. Ut dictum euismod viverra. Sed sit amet ex ut orci tempus eleifend vel id tortor.</p>
+                </div>
+            </div>
+
+            <!-- Quick Food Services -->
+            <div class="service">
+                <img src="images/Quick Food Services.jpg" alt="Empyrean Ascension Quick Food Services">
+                <div class="service-description">
+                    <h3>Quick Food Services</h3>
+                    <p>Delectable meals delivered swiftly. Fusce eget quam eu elit dictum auctor. Sed euismod ligula ut sapien lacinia, in tincidunt ante placerat.</p>
+                </div>
+            </div>
+
+            <!-- Unique Travel Experience -->
+            <div class="service">
+                <img src="images/Landing Preparty.jpg" alt="Empyrean Ascension Unique Travel Experience">
+                <div class="service-description">
+                    <h3>Unique Travel Experience</h3>
+                    <p>Special "Landing Preparty" moments. Phasellus eget justo in velit rhoncus malesuada. Morbi euismod ex ac nulla elementum, id iaculis libero tincidunt.</p>
+                </div>
+            </div>
 
             <!-- Link to go back to the home page -->
             <div id="back-link">

@@ -4,6 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* CSS for team member layout */
+        #team {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .team-member {
+            flex-basis: calc(33.33% - 20px); /* Adjust the width as needed */
+            margin: 10px;
+            text-align: center;
+        }
+
+        .team-member img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .team-member h3 {
+            margin-top: 10px;
+        }
+
+        .team-member p.intro {
+            font-style: italic;
+        }
+    </style>
     <title>Team - Empyrean Ascension</title>
 </head>
 <body>
@@ -27,19 +54,22 @@
                 <p>We are a dedicated and diverse team of professionals who are passionate about innovation, excellence, and making a positive impact on the world. With a blend of expertise across various fields, we work together to drive Empyrean Ascension forward and shape its success.</p>
             </div>
             <ul>
-                <li>
+                <li class="team-member">
                     <img src="images/Don_Ogboi.png" alt="Dr. Don Ogboi">
-                    <h3>Don Ogboi</h3>
+                    <h3>Dr. Don Ogboi</h3>
                     <p>CEO</p>
-                    <p class="intro">With a visionary mindset and a drive for success, Don Ogboi leads Empyrean Ascension towards new horizons. His strategic thinking and passion for innovation inspire our team to excel.</p>
+                    <p class="intro">With a visionary mindset and a drive for success, Dr. Don Ogboi leads Empyrean Ascension towards new horizons. His strategic thinking and passion for innovation inspire our team to excel.</p>
+                </li>
+                <li class="team-member">
+                    <img src="images/Corina_braendle.png" alt="Dr. Corina Ogboi">
+                    <h3>Dr. Corina Ogboi</h3>
+                    <p>Chief Operating Officer (COO)</p>
+                    <p class="intro">Dr. Corina Ogboi, our COO, brings a wealth of operational expertise to Empyrean Ascension. Her dedication and leadership drive our operations to excellence.</p>
                 </li>
                 <!-- Add more team members here -->
             </ul>
 
-            <!-- Link to go back to the home page -->
-            <div id="back-link">
-                <a href="home.html">Back to Home</a>
-            </div>
+            
         </section>
     </main>
 
